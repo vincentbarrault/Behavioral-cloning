@@ -68,6 +68,7 @@ For this project, the main differences with the original NVIDIA architecture are
 - After performing full connection (Layers 12 and 14), a dropout of 0.4 is performed on the outputs of the previous neural network layer, to also overcome the problem of overﬁtting,
 
 The following table shows the layers used in the model architecture of the project:
+
 |  | Layer type | Output | Number of parameters |
 |--|--|--|--|
 | 1 | Lambda (normalizing) | (160, 320, 3) | 0 |

@@ -67,6 +67,7 @@ For this project, the main differences with the original NVIDIA architecture are
 - After each 2D Convolution layer, the CNN performs maximum pooling to reduce the dimensions of the image.
 - After performing full connection (Layers 12 and 14), a dropout of 0.4 is performed on the outputs of the previous neural network layer, to also overcome the problem of overﬁtting,
 
+The following table shows the layers used in the model architecture of the project:
 |  | Layer type | Output | Number of parameters |
 |--|--|--|--|
 | 1 | Lambda (normalizing) | (160, 320, 3) | 0 |
@@ -171,6 +172,7 @@ Running training/evaluation with a higher number of epoch does not affect consid
 ## Result
 
 The video recording of the car driving almost 2 laps autonomously can be watched on this repo (video.mp4). Here is a 60 seconds sample of the video:
+
 ![Video recording of vehicule driving](https://github.com/vincentbarrault/Behavioral-cloning/blob/master/Resource/video.gif?raw=true)
 ## Possible improvements
 
